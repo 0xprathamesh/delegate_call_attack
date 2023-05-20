@@ -19,7 +19,7 @@ contract Attack {
     }
 
     function attack() public {
-        // This is the way you typecast an address to a uint
+        
         good.setNum(uint256(uint160(address(this))));
         good.setNum(1);
     }
